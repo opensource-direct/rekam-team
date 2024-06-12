@@ -1,7 +1,7 @@
 ## Project Rekam Team v1.0
 Project khusus untuk memaintain team dan merekam hasil pekerjaan untuk mencapai target
 
-## Develop #1
+## Develop Part 1:
 
 - Bisa merekam issue yang muncul dari tim ITSA dan dapat men-tracing progress sampai dengan issue closed
 
