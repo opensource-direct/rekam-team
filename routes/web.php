@@ -38,6 +38,7 @@ Route::prefix('quality-assurance')->middleware(['auth', 'auth.quality-assurance'
 
 Route::get('logout', function () {
     Auth::logout();
+    return redirect('welcome');
 });
 
 Route::get('/', function () {
