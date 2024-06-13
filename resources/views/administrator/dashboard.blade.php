@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>Rekam Team - Dashboard</title>
 
     <!-- Custom fonts for this template-->
     <link href="{{ asset('sb-admin-2') }}/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -106,7 +106,11 @@
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="{{ asset('sb-admin-2') }}/tables.html">
-                    <span>Tables</span></a>
+                    <span>Tables</span>
+                </a>
+                <a class="nav-link" href="{{ route('logout') }}">
+                    <span>Logout</span>
+                </a>
             </li>
 
             <!-- Divider -->
